@@ -18,11 +18,9 @@ print("Grados Celsius:",Celsius,", Grados Farhenheir:",(Celsius*(9/5)+32))
 
 #Ejercicio 3 Obtener longitud de lados de un triángulo rectángulo
 
-from math import sqrt
-
 Cateto1=50
 Cateto2=100
-Hipotenusa=sqrt(Cateto1**2+Cateto2**2)
+Hipotenusa=(Cateto1**2+Cateto2**2)**.5
 
 print("\nRespuesta Ejercicio 3")
 print("Gateto 1:",Cateto1,", Cateto 2:",Cateto2,"Hipotenusa",Hipotenusa,"\n")
