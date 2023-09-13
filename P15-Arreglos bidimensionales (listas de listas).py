@@ -4,7 +4,7 @@ for i in range(5):
     for j in range(4):
         registro_temperatura[i][j]=float(input("Ingresa la temperatura"))
 
-for x in registro_temperatura
+for x in registro_temperatura:
     print (x)
 
 tem_promedio=0
